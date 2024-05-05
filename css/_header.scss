@@ -1,0 +1,28 @@
+/*header*/
+@import "variables";
+@mixin anclas {
+    text-decoration: none;
+    color: black;
+}
+.collapse {
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+
+}
+.botonChat {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    width: 50px;
+}
+.azul {
+    color: $color-azul;
+}
