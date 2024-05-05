@@ -55,16 +55,10 @@
 
 /*Fuentes*/
 h2 {
-  font-size: medium;
+  font-size: 20px;
 }
 
 /*header*/
-.collapse {
-  background-image: url(../img/logo.png);
-  background-position: center;
-  background-size: cover;
-}
-
 .navbar-brand {
   text-transform: uppercase;
   font-weight: 700;
